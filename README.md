@@ -8,6 +8,8 @@ _Page design recreation from given design_
 
 This project is for educational porpuses only. Pull request are welcome, but priority for project authors! Thank you for your cooperation!
 
+Used CSS reset created by: [Eric A. Meyer](https://meyerweb.com/eric/tools/css/reset/)
+
 Site published at: https://imantasprecas.github.io/03-yoga-page-design/
 
 Design: [Yoga studio - web ui concept by Dmytro Svientukhovskyi ](https://dribbble.com/shots/6857288/attachments/6857288-Yoga-studio-web-ui-concept?mode=media)
