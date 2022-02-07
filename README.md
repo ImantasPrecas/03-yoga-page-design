@@ -20,6 +20,7 @@ Design: [Yoga studio - web ui concept by Dmytro Svientukhovskyi ](https://dribbb
 - CSS
 - Github pages
 - responsive design
+- Google fonts
 
 ## Authors
 

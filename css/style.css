@@ -1,6 +1,8 @@
 body {
   background-image: url(../img/bg.jpg);
   background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Dosis', sans-serif;
 }
 
 header {
@@ -33,24 +35,51 @@ header {
 }
 
 .main-content {
-  background-color: rgb(96, 97, 158);
+  /* background-color: rgb(96, 97, 158); */
+  display: inline-block;
   width: 1220px;
+  margin-top: 150px;
   margin-left: calc(50% - 610px);
 }
 
 .text {
+  /* background-color: aqua; */
+  float: left;
+  width: 40%;
+  color: #2b224b;
+  font-weight: 800;
 }
 
 h1 {
+  font-size: 50px;
 }
 
-.text-content {
+span {
+  color: #ff4522;
+}
+p {
+  font-size: 22px;
+  margin-top: 30px;
+  line-height: 30px;
+  font-weight: 400;
 }
 
 .sign-up-btn {
+  background-color: #ff4522;
+  text-decoration: none;
+  display: inline-block;
+  color: wheat;
+  font-size: 20px;
+  font-weight: 400;
+  padding: 10px 30px;
+  margin-top: 40px;
+  border-radius: 5px;
 }
 
 .main-img {
+  /* background-color: #fff; */
+  float: right;
+  width: 58%;
 }
 
 .background-img {
