@@ -6,12 +6,10 @@ body {
 }
 
 header {
-  background-color: antiquewhite;
-  /* float: left; */
   display: inline-block;
   width: 1220px;
   margin-left: calc(50% - 610px);
-  margin-top: 10px;
+  margin-top: 15px;
 }
 
 .logo {
@@ -25,17 +23,22 @@ header {
 }
 
 .menu-links {
-  float: left;
-  margin-left: 20px;
+  margin-left: 40px;
   line-height: 20px;
-  /* border: 3px solid red; */
+  padding: 2px;
+  font-size: 20px;
+  font-weight: 800;
+  text-decoration: none;
+  color: #2b224b;
+  border-bottom: 3px solid transparent;
 }
 
-.menu-links:first-child {
+.menu-links:hover {
+  border-bottom: 3px solid #ff4522;
+  transition: 0.5s;
 }
 
 .main-content {
-  /* background-color: rgb(96, 97, 158); */
   display: inline-block;
   width: 1220px;
   margin-top: 150px;
@@ -43,7 +46,6 @@ header {
 }
 
 .text {
-  /* background-color: aqua; */
   float: left;
   width: 40%;
   color: #2b224b;
@@ -66,20 +68,31 @@ p {
 
 .sign-up-btn {
   background-color: #ff4522;
+  box-sizing: border-box;
+  border: 3px solid transparent;
   text-decoration: none;
   display: inline-block;
-  color: wheat;
+  color: white;
   font-size: 20px;
-  font-weight: 400;
+  font-weight: 600;
   padding: 10px 30px;
   margin-top: 40px;
   border-radius: 5px;
 }
 
+.sign-up-btn:hover {
+  /* background-color: #ff6d54; */
+  background-color: transparent;
+  box-sizing: border-box;
+  border: 3px solid #ff4522;
+  color: #ff4522;
+  transition: 0.5s;
+}
+
 .main-img {
   /* background-color: #fff; */
   float: right;
-  width: 58%;
+  width: 50%;
 }
 
 .background-img {

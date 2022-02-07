@@ -19,8 +19,9 @@ Design: [Yoga studio - web ui concept by Dmytro Svientukhovskyi ](https://dribbb
 - HTML3
 - CSS
 - Github pages
-- responsive design
 - Google fonts
+- Favicon
+- hover
 
 ## Authors
 
