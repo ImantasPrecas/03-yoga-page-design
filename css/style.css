@@ -1,4 +1,6 @@
 body {
+  background-image: url(../img/bg.jpg);
+  background-size: cover;
 }
 
 header {
@@ -52,4 +54,5 @@ h1 {
 }
 
 .background-img {
+  object-fit: ;
 }
